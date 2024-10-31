@@ -17,3 +17,8 @@
 ## Payload 5
 
 Можно вывзвать payload через вставку js кода в url по примеру: `https://google-gruyere.appspot.com/409795454757263309323652174942897092634/<img src=x onerror=alert('XSS')>`, что вызовет переход на несуществующую страницу и вызов alert с сообщением.
+
+## Payload 6
+
+Можно вывзвать payload через вставку img c onerror=alert('xss') на странице профиля в при создании private snipet: `https://google-gruyere.appspot.com/547594091525851475734108652343278146611/editprofile.gtl`, что вызовет ошибку и вывод сообщение alert.
+
